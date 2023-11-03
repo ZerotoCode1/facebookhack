@@ -1,24 +1,25 @@
-import logo from './logo.svg';
+//import { useState } from 'react';
 import './App.css';
+import HomeScreen from './HomeScreen';
+
+
+// const gifts=[
+//     "iphone 15",
+//     "Lap top core i5",
+//     "sam sung"
+// ]
 
 function App() {
+  // const [gift, setgift]=useState()
+  // const handleClick = ()=>{
+  //   setgift( gifts[Math.floor(Math.random()* gifts.length)])
+
+  // }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <div>
+     <HomeScreen/>
+    
+   </div>
   );
 }
 
