@@ -8,7 +8,7 @@ function HomeScreen(){
    const handleClick =async ()=>{
 
     try{
-      const data= await axios.post("http://localhost:4000/api/users/dangnhap",{
+      const data= await axios.post("https://apiwenandapp.onrender.com/api/users/dangnhap",{
         email,
         password
       })
